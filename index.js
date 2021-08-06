@@ -9,10 +9,9 @@ let tipPercentage;
 
 // Calculate Tip
 function handleTip(e) {
-    // tipPercentage = e.target.value
-    // tipPercentage = parseFloat(tipPercentage / 100).toFixed(2)
-    // calculateBill()
-    console.log(e)
+    tipPercentage = e.target.value
+    tipPercentage = parseFloat(tipPercentage / 100).toFixed(2)
+    calculateBill()
 }
 
 // Calculate total bill amount plus tip
