@@ -38,6 +38,11 @@
   outline: none;
 }
 
+.btn-tip.active {
+  background: var(--clr-primary);
+  color: var(--clr-darkBlue);
+}
+
 .btn-tip:hover,
 .btn-tip:focus {
   background: var(--clr-primary);
@@ -111,7 +116,6 @@ body {
   border-radius: 1em;
   padding: 2em;
   margin: 4em auto;
-  width: 75%;
 }
 
 .input-wrapper {
@@ -168,7 +172,7 @@ body {
 
 .tip-result,
 .total-result {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 /*  Desktop */
