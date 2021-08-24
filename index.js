@@ -9,6 +9,13 @@ let tipPercentage;
 
 // Calculate Tip
 function handleTip(e) {
+    if(!e.target.classList.contains('active')) {
+        e.target.classList.add('active')
+        if(e.target.classList.contains('active')) {
+            e.target.classList.remove('active')
+        }
+    } 
+
     tipPercentage = e.target.value
     tipPercentage = parseFloat(tipPercentage / 100).toFixed(2)
     calculateBill()
